@@ -1,0 +1,201 @@
+body{
+    background-color: hsl(210, 12%, 97%);
+}
+.navbar{
+    background-color: hsl(0, 0%, 100%);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: auto;
+    border-radius: 50px;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin: 10px;
+}
+.navigation-buttons button{
+    border: none;
+    width: 122px;
+    height: 41px;
+    border-radius: 20px;
+    margin: 0.3rem;
+    background-color: aliceblue;
+}
+.logo img{
+    width: 211px;
+    height: 48px;
+    margin: 10px;
+}
+.doc-profile{
+    display: flex;
+    justify-content: start;
+    align-items: center;
+}
+.profile-pic{
+    width: 45px;
+    height: 45px;
+}
+.profile-text{
+    font-size: 0.7rem;
+    margin: 3px;
+}
+.doc-profile p {
+    color: rgb(105, 104, 104);
+}
+.nav-icon{
+    width: 20px;
+    height: 20px;
+    margin: 3px;
+}
+.body-content{
+    display: flex;
+    justify-content: space-between;
+    align-items: start;
+    margin-right: 10px;
+    margin-left: 10px;
+}
+.patients{
+    background-color: hsl(0, 0%, 100%);
+    width: 330px;
+    height: auto;
+}
+.patients-heading{
+    display: flex;
+    justify-content: space-between;
+    padding-right: 10px;
+    padding-left: 20px;
+}
+.patients-list{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left:20px;
+    padding-right: 10px;
+    cursor: pointer;
+}
+.patients-list p{
+    color: rgb(116, 114, 114);
+}
+.patient-prof{
+    width: 40px;
+    height: 40px;
+}
+.patient-option{
+    width: 15px;
+    height: 10px;
+}
+.patient-profile{
+    width: 270px;
+    height: auto;
+    background-color: hsl(0, 0%, 100%);
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+}
+.patient-head{
+    align-items: center;
+    text-align: center;
+}
+.patient-info{
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+}
+.patient-info img{
+    padding: 5px ;
+    padding-right: 10px;
+    width: 35px;
+    height: 35px;
+}
+.more-btn{
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+}
+.more-btn button{
+    border: none;
+    width: 220px;
+    height: 41px;
+    background-color: hsl(172, 99%, 47%);
+    border-radius: 30px;
+    cursor: pointer;
+}
+.diagnosis{
+    margin: 30px;
+    background-color: hsl(0, 0%, 100%);
+    border-radius: 10px;
+}
+.diagnosis-head{
+    padding: 10px;
+    font-family: helvetica;
+}
+.diagnosis-chart{
+    width: 700px;
+    height: 300px;
+    background-color: hsl(256, 82%, 94%);
+    margin: 10px;
+    padding: 10px;
+    border-radius: 10px;
+}
+.diagnosis-data{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+}
+.diagnosis-data p{
+    font-family: helvetica;
+    font-size: 0.8em;
+}
+.diagnosis-data h3{
+    font-family: helvetica;
+    font-size: 1.5em;
+    margin-top: 1px;
+}
+.chart-icon{
+    width: 96px;
+    height: 96px;
+}
+.res{
+    background-color: #E0F3FA;
+    width: 200px;
+    height: auto;
+    padding: 10px;
+    border-radius: 10px;
+}
+.temp{
+    width: 200px;
+    height: auto;
+    padding: 10px;
+    border-radius: 10px;
+    background-color: #FFE6E9;
+}
+.heart{
+    width: 200px;
+    height: auto;
+    padding: 10px;
+    border-radius: 10px;
+    background-color: #FFE6F1;
+}
+.diagnostic-list{
+    width: 700px;
+    height: auto;
+    background-color: hsl(0, 0%, 100%);
+    border-radius: 10px;
+    padding: 10px;
+}
+.diagnostic-list th{
+    background-color: hsl(210, 12%, 97%);
+    padding: 5px;
+    border-radius: 10px;
+    font-family: helvetica;
+}
+.diagnostic-list td{
+    font-family: helvetica;
+    font-size: 0.9em;
+}
+.lab-results{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+}
